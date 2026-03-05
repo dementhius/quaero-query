@@ -1,0 +1,46 @@
+{
+  "name": "@quaero/query",
+  "version": "0.1.0",
+  "description": "TypeScript query builder for the Quaero JPA query engine",
+  "author": "dementhius",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dementhius/quaero-query.git"
+  },
+  "homepage": "https://github.com/dementhius/quaero-query#readme",
+  "bugs": {
+    "url": "https://github.com/dementhius/quaero-query/issues"
+  },
+  "keywords": [
+    "quaero",
+    "query",
+    "builder",
+    "jpa",
+    "typescript",
+    "angular"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
