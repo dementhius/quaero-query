@@ -1,6 +1,6 @@
 {
   "name": "@quaero/query",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TypeScript query builder for the Quaero JPA query engine",
   "author": "dementhius",
   "license": "Apache-2.0",
